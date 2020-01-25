@@ -3,3 +3,5 @@ env/
 build/
 dist/
 *.egg-info/
+*.pyc
+*.swp

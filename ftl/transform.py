@@ -1,6 +1,6 @@
 import multiprocessing as mp
 
-from job import CompletedJob
+from .job import CompletedJob
 
 
 def create_worker(task, verbose):

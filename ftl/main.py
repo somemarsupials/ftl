@@ -2,8 +2,8 @@ import asyncio
 import multiprocessing as mp
 import queue
 
-from fetch import Fetch
-from transform import Transform
+from .fetch import Fetch
+from .transform import Transform
 
 
 class FTL:

@@ -3,7 +3,7 @@ from tornado.httpclient import AsyncHTTPClient
 from tornado.ioloop import IOLoop
 from tornado.queues import Queue
 
-from job import FetchJob, TransformJob
+from .job import FetchJob, TransformJob
 
 
 async def make_request(url):
